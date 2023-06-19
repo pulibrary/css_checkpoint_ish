@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+    flex-direction: column;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+body,
+footer,
+.nav-bar,
+main,
+header,
+.search-area {
+    display: flex;
+}
+
+main {
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+
+footer {
+    background: #f2f2f2;
+    color: #70757a;
+    justify-content: space-between;
+    margin: -8px;
+    bottom: 0;
+}
+
+footer a {
+    color: #70757a;
+}
+
+footer a:hover {
+    border-bottom: #70757a 1px solid;
+}
+
+.nav-bar {
+    padding: 10px 5px;
+    margin: 0 20px;
+}
+
+.nav-item {
+    margin: 15px 22px;
+}
+
+.carbon {
+    margin: 17px 5px 0 5px;
+    height: 20px;
+}
+
+.carb_text {
+    margin: 15px 40px 15px 0;
+}
+
+.logo {
+    height: 9rem;
+    width: 27rem;
+}
+
+#search-query {
+    border: none;
+}
+
+.search-area {
+    border: 1px solid #dfe1e5;
+    border-radius: 40px;
+    height: 65px;
+    width: 45vw;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.btn {
+    background-color:#f8f9fa;
+    font-size: 20px;
+    color: #3c4043;
+    margin: 20px 15px;
+    padding: 15px 25px;
+    min-width: 54px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+}
+
+input {
+    width: 35vw;
+    margin-right: 20px;
+}
+
+header {
+    color: rgba(0,0,0,.87);
+    justify-content: space-between;
+    margin-top: 8px;
+    align-items: center;
+}
+
+header a {
+    color: rgba(0,0,0,.87);
+}
+
+header a:not(.menu):hover {
+    border-bottom: 1px solid rgba(0,0,0,.87);
+}
+
+.profile-photo {
+    border-radius: 50%;
+    height: 3em;
+    width: 3em;
+}
+
+.menu {
+    width: 3em;
+    height: 1.5em;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: -22px;
+}
+
+.menu-sub {
+    border-radius: 50%;
+    width: 0.5em;
+    height: 0.5em;
+    margin: 0 0.15em 0 0.15em;
+}
+
+header .nav-bar {
+    align-items: center;
+}
